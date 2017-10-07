@@ -1,5 +1,3 @@
-
-
 // Author : Nielson Santana
 // github.com/nielsonsantana
 
@@ -21,8 +19,12 @@ window.jslazy = (function() {
   };
   JSLazyLoad.prototype.insertScriptOnDom = function(script) {
     // The same code used by Google Analytics
-    var x = document.getElementsByTagName('script')[0];
-    x.parentNode.insertBefore(script, x);
+    try {
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(script, x); 
+    } catch (error) {
+      console.log(error);
+    }
   };
   
   JSLazyLoad.prototype.appendHrefScript = function(href, async, callback) {

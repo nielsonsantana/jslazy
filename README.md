@@ -5,7 +5,7 @@ JSLazy is a small library for async loading of JavaScript and CSS. JSLazy was bu
 
 The latest version of JSLazy can be found in the `dist/` directory in this repository:
  * [jslazy.js](https://cdn.rawgit.com/nielsonsantana/jslazy/master/dist/jslazy.js)
- * [jslazy.min.js](https://cdn.rawgit.com/nielsonsantana/jslazy/master//dist/jslazy.min.js.
+ * [jslazy.min.js](https://cdn.rawgit.com/nielsonsantana/jslazy/master//dist/jslazy.min.js)
 
 To get the best performance, is recommended load JSLazy as inline.
 
