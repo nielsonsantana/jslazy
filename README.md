@@ -8,7 +8,7 @@ Usage
 
 JSLazy allow load JavaScript and CSS files in lazy mode.
 
-Example for CSS:
+### Example for CSS:
 
     <noscript id="deferred-styles">
 
@@ -18,7 +18,9 @@ Example for CSS:
 
     </noscript>
 
-Example for JavaScript:
+### Example for JavaScript:
+The attribute `dependency` indicates that the JavaScript should be loaded as dependency, before run any script. All JavaScripts are fetched async and parallel and loaded on DOM in order of occurrence.
+
 
     <noscript id="deferred-javascript">
 
@@ -39,8 +41,6 @@ Example for JavaScript:
     </script>
 
     </noscript>
-
-The attribute `dependency` indicates that the JavaScript shoud be loaded as dependency, before run any script. All JavaScripts are fetched async and parallel and loaded on DOM in order of occurrence.
 
 
 Browser Support
