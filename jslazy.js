@@ -1,8 +1,9 @@
 
+
 // Author : Nielson Santana
 // github.com/nielsonsantana
 
-window.jLazy = (function() {
+window.jslazy = (function() {
 
   function JSLazyLoad() {};
 
@@ -160,8 +161,8 @@ window.jLazy = (function() {
 }());
 
 var loadJSandCSS = function() {
-  jLazy.loadCSS();
-  jLazy.loadJS();
+  jslazy.loadCSS();
+  jslazy.loadJS();
 }
 
 if (window.addEventListener) {
